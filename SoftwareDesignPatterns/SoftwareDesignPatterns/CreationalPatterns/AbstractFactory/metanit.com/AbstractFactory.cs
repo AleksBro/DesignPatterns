@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory
+namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.metanit.com
 {
     abstract class AbstractFactory
     {
