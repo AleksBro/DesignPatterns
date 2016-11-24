@@ -75,6 +75,15 @@
     <Compile Include="CreationalPatterns\FactoryMethod\metanit.com\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BehavioralPatterns\README.md" />
+    <None Include="CreationalPatterns\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CreationalPatterns\Builder\" />
+    <Folder Include="CreationalPatterns\Prototype\" />
+    <Folder Include="CreationalPatterns\Singleton\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
