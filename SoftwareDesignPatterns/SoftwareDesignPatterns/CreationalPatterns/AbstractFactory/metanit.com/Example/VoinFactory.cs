@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.Emaple
+namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.Example
 {
-    // Фабрика создания летящего героя с арбалетом
-    class ElfFactory : HeroFactory
+    // Фабрика создания бегущего героя с мечом
+    class VoinFactory : HeroFactory
     {
         public override Movement CreateMovement()
         {
-            return new FlyMovement();
+            return new RunMovement();
         }
 
         public override Weapon CreateWeapon()
         {
-            return new Arbalet();
+            return new Sword();
         }
     }
 }

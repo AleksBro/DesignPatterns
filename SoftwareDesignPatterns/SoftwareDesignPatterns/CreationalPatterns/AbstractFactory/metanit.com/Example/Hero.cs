@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.Emaple
+namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.Example
 {
     // клиент - сам супергерой
     class Hero

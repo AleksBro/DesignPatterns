@@ -46,17 +46,17 @@
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Client.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\ConcreteFactory1.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\ConcreteFactory2.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Arbalet.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\ElfFactory.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\FlyMovement.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Hero.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\HeroFactory.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Movement.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Program.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\RunMovement.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Sword.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\VoinFactory.cs" />
-    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Emaple\Weapon.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Arbalet.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\ElfFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\FlyMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Hero.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\HeroFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Movement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Program.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\RunMovement.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Sword.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\VoinFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\Example\Weapon.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\ProductA1.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\ProductA2.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\ProductB1.cs" />
@@ -80,6 +80,7 @@
     <None Include="CreationalPatterns\README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\" />
     <Folder Include="CreationalPatterns\Builder\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="CreationalPatterns\Singleton\" />
