@@ -12,6 +12,7 @@
 * Шаблонный метод (Template method)
 * Посетитель (Visitor)
 
+other:
 * Simple Policy
 * Event listener
 * Single-serving visitor
