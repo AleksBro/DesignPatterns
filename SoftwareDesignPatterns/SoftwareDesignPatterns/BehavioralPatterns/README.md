@@ -11,6 +11,7 @@
 * Стратегия (Strategy)
 * Шаблонный метод (Template method)
 * Посетитель (Visitor)
+
 Simple Policy
 Event listener
 Single-serving visitor
