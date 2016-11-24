@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\ConcreteHandler1.cs" />
+    <Compile Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\ConcreteHandler2.cs" />
+    <Compile Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\ConcreteHandler3.cs" />
+    <Compile Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\Handler.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\AbstractFactory.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\AbstractProductA.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\metanit.com\AbstractProductB.cs" />
@@ -80,7 +84,6 @@
     <None Include="CreationalPatterns\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BehavioralPatterns\ChainOfResponsibility\wikipedia.org\" />
     <Folder Include="CreationalPatterns\Builder\" />
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="CreationalPatterns\Singleton\" />
