@@ -66,6 +66,16 @@
     <Compile Include="CreationalPatterns\AbstractFactory\MetanitCom\ProductA2.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\MetanitCom\ProductB1.cs" />
     <Compile Include="CreationalPatterns\AbstractFactory\MetanitCom\ProductB2.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\AbstractFactory.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\AbstractProductA.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\AbstractProductB.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\Client.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ConcreteFactory1.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ConcreteFactory2.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ProductA1.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ProductA2.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ProductB1.cs" />
+    <Compile Include="CreationalPatterns\AbstractFactory\WikipediaOrg\ProductB2.cs" />
     <Compile Include="CreationalPatterns\Builder\MetanitCom\Example\Additives.cs" />
     <Compile Include="CreationalPatterns\Builder\MetanitCom\Example\Baker.cs" />
     <Compile Include="CreationalPatterns\Builder\MetanitCom\Example\Bread.cs" />
