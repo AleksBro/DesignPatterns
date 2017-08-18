@@ -17,6 +17,7 @@ Design Patterns - Шаблоны (или паттерны) проектиров�
 * [Refactoring.Guru - Паттерны проектирования](https://refactoring.guru/ru/design-patterns)
 
 #### Interesting Links:
+* [Habrahabr.ru - Шпаргалка по шаблонам проектирования](https://habrahabr.ru/post/210288/)
 
 
 

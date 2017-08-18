@@ -7,6 +7,7 @@
 * Одиночка (Singleton)
 
 #### other:
+* Dependency Injection
 * Ленивая инициализация (lazy initialization)
 * Объектный пул (object pool)
 * Пул одиночек (Multiton)

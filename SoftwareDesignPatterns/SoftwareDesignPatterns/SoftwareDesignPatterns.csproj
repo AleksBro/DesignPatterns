@@ -98,11 +98,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="BehavioralPatterns\README.md" />
+    <None Include="CreationalPatterns\DependencyInjection\README.md" />
     <None Include="CreationalPatterns\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CreationalPatterns\Prototype\" />
     <Folder Include="CreationalPatterns\Singleton\" />
+    <Folder Include="StructuralPatterns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
