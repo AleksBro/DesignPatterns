@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.Example
 {
     // клиент - сам супергерой
-    class Hero
+    public class Hero
     {
         private Weapon weapon;
         private Movement movement;

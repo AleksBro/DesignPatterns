@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.WikipediaOrg;
+using SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.Example;
 
 namespace ConsoleApps.AbstractFactory_UsingExamples
 {
@@ -11,6 +12,8 @@ namespace ConsoleApps.AbstractFactory_UsingExamples
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+            
             // ----------------------------------------------------------------------------
             // https://ru.wikipedia.org/wiki/Абстрактная_фабрика_(шаблон_проектирования)
             // ----------------------------------------------------------------------------
@@ -29,7 +32,21 @@ namespace ConsoleApps.AbstractFactory_UsingExamples
             Console.ReadKey();
 
             // ----------------------------------------------------------------------------
+
             // ----------------------------------------------------------------------------
+            // https://metanit.com/sharp/patterns/2.2.php
+            // ----------------------------------------------------------------------------
+
+            Hero elf = new Hero(new ElfFactory());
+            elf.Hit();
+            elf.Run();
+
+            Hero voin = new Hero(new VoinFactory());
+            voin.Hit();
+            voin.Run();
+
+            Console.ReadLine();
+
         }
     }
 }

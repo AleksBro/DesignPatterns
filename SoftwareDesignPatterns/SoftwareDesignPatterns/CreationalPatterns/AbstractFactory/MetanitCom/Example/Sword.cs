@@ -11,7 +11,7 @@ namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.E
     {
         public override void Hit()
         {
-            Console.WriteLine("Бьем мечом");
+            Console.WriteLine("Beat with the sword");
         }
     }
 }

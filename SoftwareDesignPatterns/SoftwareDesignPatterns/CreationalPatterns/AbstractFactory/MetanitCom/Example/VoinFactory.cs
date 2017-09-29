@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.Example
 {
     // Фабрика создания бегущего героя с мечом
-    class VoinFactory : HeroFactory
+    public class VoinFactory : HeroFactory
     {
         public override Movement CreateMovement()
         {

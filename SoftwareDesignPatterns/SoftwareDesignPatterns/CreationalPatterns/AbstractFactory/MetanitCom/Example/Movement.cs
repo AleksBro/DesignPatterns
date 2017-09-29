@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.Example
 {
     // абстрактный класс движение
-    abstract class Movement
+    public abstract class Movement
     {
         public abstract void Move();
     }

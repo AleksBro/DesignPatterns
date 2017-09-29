@@ -11,7 +11,7 @@ namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.E
     {
         public override void Move()
         {
-            Console.WriteLine("Летим");
+            Console.WriteLine("Fly");
         }
     }
 }

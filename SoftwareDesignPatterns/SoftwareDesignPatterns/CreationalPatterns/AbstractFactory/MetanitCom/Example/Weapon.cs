@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SoftwareDesignPatterns.CreationalPatterns.AbstractFactory.MetanitCom.Example
 {
     //абстрактный класс - оружие
-    abstract class Weapon
+    public abstract class Weapon
     {
         public abstract void Hit();
     }
